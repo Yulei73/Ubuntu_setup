@@ -1,0 +1,38 @@
+sudo apt-get install
+
+sudo dpkg -i /brbrbr.deb
+
+tar -xzvf test.tar.gz(unzip)
+tar -czvf test.tar.gz anything.xxx(zip)
+
+zip -q -r html.zip /home/html
+unzip file.zip
+cp -r text/ newtext
+
+conda config --set auto_activate_base True
+
+conda create -n tf
+
+source activate tf
+
+source deactivate tf
+
+
+sudo vim /etc/apt/sources.list
+
+gedit
+
+systemctl enable v2ray
+ systemctl start v2ray
+
+
+backup:
+tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys --exclude=/media /
+$ sudo rm -rf /media/磁盘名称/分区名称*
+$ sudo cp -i backup.tgz /media/磁盘名/分区名sdaX
+$ sudo tar xvpfz backup.tgz
+$ sudo mkdir proc lost+found mnt sys media
+
+
+cd "/home/ylmsi2/.bazel/bin" && curl -fLO https://releases.bazel.build/3.0.0/release/bazel-3.0.0-linux-x86_64 && chmod +x bazel-3.0.0-linux-x86_64
+
